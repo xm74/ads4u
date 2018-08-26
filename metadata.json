@@ -1,0 +1,10 @@
+{
+        "author": "Max Kostikov",
+        "email": "max@kostikov.co",
+        "website": "http://kostikov.co",
+        "version": "0.2.2",
+        "releaseDate": "2018-08-26",
+        "license": "MIT",
+        "compatible": "3.0",
+        "notes": ""
+}

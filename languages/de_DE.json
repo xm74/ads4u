@@ -1,0 +1,11 @@
+{
+	"plugin-data":
+	{
+		"name": "Ads4U",
+		"description": "Mit dem Plugin kann der Code von Anzeigen oder ein beliebiger HTML-Code in den Fußbereich von Beiträgen und Seiten eingefügt werden."
+	},
+	"enable-ads4u-on-pages": "Ads4U für Seiten aktivieren",
+	"enable-ads4u-on-posts": "Ads4U für Beiträge",
+	"ads4u-html-code": "HTML-Code",
+	"complete-this-field-with-html-code": "Hier den Code eingeben."
+}
