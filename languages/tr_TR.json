@@ -1,0 +1,12 @@
+
+{
+	"plugin-data":
+	{
+		"name": "Ads4U",
+		"description": "Ads4U ile sitenize reklam ekleyin."
+	},
+	"enable-ads4u-on-pages": "Sayfalarda Ads4U",
+	"enable-ads4u-on-posts": "Yazılarda Ads4U",
+	"ads4u-html-code": "HTML kodu",
+	"complete-this-field-with-html-code": "Reklamlarınızıb HTML kodunu buraya girin"
+}
