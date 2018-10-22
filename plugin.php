@@ -24,28 +24,28 @@ class pluginAds4U extends Plugin {
 
         public function form()
         {
-                global $Language;
+                global $L;
 
                 $html  = '<div>';
-                $html .= '<label for="ads4uenablepages">'.$Language->get('enable-ads4u-on-pages').'</label>';
+                $html .= '<label for="ads4uenablepages">'.$L->get('enable-ads4u-on-pages').'</label>';
                 $html .= '<select id="ads4uenablepages" name="enablePages">';
-                $html .= '<option value="true" '.($this->getValue('enablePages')===true?'selected':'').'>'.$Language->get('enabled').'</option>';
-                $html .= '<option value="false" '.($this->getValue('enablePages')===false?'selected':'').'>'.$Language->get('disabled').'</option>';
+                $html .= '<option value="true" '.($this->getValue('enablePages')===true?'selected':'').'>'.$L->get('enabled').'</option>';
+                $html .= '<option value="false" '.($this->getValue('enablePages')===false?'selected':'').'>'.$L->get('disabled').'</option>';
                 $html .= '</select>';
                 $html .= '</div>';
 
                 $html .= '<div>';
-                $html .= '<label for="ads4uenableposts">'.$Language->get('enable-ads4u-on-posts').'</label>';
+                $html .= '<label for="ads4uenableposts">'.$L->get('enable-ads4u-on-posts').'</label>';
                 $html .= '<select id="ads4uenableposts" name="enablePosts">';
-                $html .= '<option value="true" '.($this->getValue('enablePosts')===true?'selected':'').'>'.$Language->get('enabled').'</option>';
-                $html .= '<option value="false" '.($this->getValue('enablePosts')===false?'selected':'').'>'.$Language->get('disabled').'</option>';
+                $html .= '<option value="true" '.($this->getValue('enablePosts')===true?'selected':'').'>'.$L->get('enabled').'</option>';
+                $html .= '<option value="false" '.($this->getValue('enablePosts')===false?'selected':'').'>'.$L->get('disabled').'</option>';
                 $html .= '</select>';
                 $html .= '</div>';
 
                 $html .= '<div>';
-                $html .= '<label for="ads4ucode">'.$Language->get('ads4u-html-code').'</label>';
+                $html .= '<label for="ads4ucode">'.$L->get('ads4u-html-code').'</label>';
                 $html .= '<textarea id="ads4ucode" type="text" name="ads4uCode">'.$this->getValue('ads4uCode').'</textarea>';
-                $html .= '<span class="tip">'.$Language->get('complete-this-field-with-html-code').'</span>';
+                $html .= '<span class="tip">'.$L->get('complete-this-field-with-html-code').'</span>';
                 $html .= '</div>';
 
                 return $html;
