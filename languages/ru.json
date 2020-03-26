@@ -1,0 +1,11 @@
+{
+        "plugin-data":
+        {
+                "name": "Ads4U",
+                "description": "Добавьте рекламу на ваш сайт с помощью Ads4U."
+        },
+        "enable-ads4u-on-pages": "Включить рекламу для страниц",
+        "enable-ads4u-on-posts": "Включить рекламу для записей",
+        "ads4u-html-code": "HTML-код",
+        "complete-this-field-with-html-code": "Вставьте сюда HTML-код вашей рекламы"
+}
